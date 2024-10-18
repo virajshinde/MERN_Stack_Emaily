@@ -1,6 +1,6 @@
 //prod.js , Production keys here
 
-const { stripePublishableKey, stripeSecretKey } = require("./dev");
+const { stripePublishableKey, stripeSecretKey } = require("./config/dev");
 
 module.exports = {
     googleClientID: process.env.GOOGLE_CLIENT_ID ,
